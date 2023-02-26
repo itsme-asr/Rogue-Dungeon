@@ -22,11 +22,15 @@ public class Laucher : MonoBehaviour
         {
             float delay = Random.Range(mini, max);
             yield return new WaitForSeconds(delay);
+
             int randomPoint = Random.Range(0, spawnPoints.Length);
             Transform spawnPoint = spawnPoints[randomPoint];
+
             GameObject cloneFire = Instantiate(firePrefab, spawnPoint.position, spawnPoint.rotation);
+
             Rigidbody2D rb = cloneFire.GetComponent<Rigidbody2D>();
             rb.AddForce(spawnPoint.up * launchSpeed, ForceMode2D.Impulse);
+
             Destroy(cloneFire, 2f);
         }
     }
