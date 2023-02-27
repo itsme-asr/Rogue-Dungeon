@@ -1712,8 +1712,7 @@ SpriteRenderer:
   m_SortingLayerID: -1869315837
   m_SortingLayer: 1
   m_SortingOrder: 2
-  m_Sprite: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7,
-    type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2814c37305fdb1241ab5b3119a697d24, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1732,7 +1731,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1727841828}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.5, y: 0.5, z: 0}
+  m_LocalPosition: {x: 0.5, y: 0.584, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1769,14 +1768,14 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 0.8, y: 0.8}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.7, y: 0.7}
+  m_Size: {x: 0.5, y: 0.7}
   m_EdgeRadius: 0
 --- !u!1 &1749534526
 GameObject:
@@ -1833,8 +1832,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b49fc30fb22b0d4790d4055006ca943, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  firePrefab: {fileID: 2703357724063775616, guid: 357cba6a963f8694189a30137a0ffc2b,
-    type: 3}
+  firePrefabs:
+  - {fileID: 2703357724063775616, guid: 357cba6a963f8694189a30137a0ffc2b, type: 3}
+  - {fileID: 5582191631311252114, guid: 2ceca9d0e3fbd9240820d6ac878af231, type: 3}
+  - {fileID: 5057216907307835389, guid: 5b56960edf30e6c4180a91c29bfa8a04, type: 3}
   spawnPoints:
   - {fileID: 1346133751}
   - {fileID: 1590605278}

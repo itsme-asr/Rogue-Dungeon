@@ -5,7 +5,7 @@ using UnityEngine;
 public class Laucher : MonoBehaviour
 {
     private float launchSpeed = 5f;
-    [SerializeField] GameObject firePrefab;
+    [SerializeField] GameObject[] firePrefabs;
     [SerializeField] Transform[] spawnPoints;
 
     private float mini = .1f;
@@ -25,6 +25,9 @@ public class Laucher : MonoBehaviour
 
             int randomPoint = Random.Range(0, spawnPoints.Length);
             Transform spawnPoint = spawnPoints[randomPoint];
+
+            int randomFire = Random.Range(0, firePrefabs.Length);
+            GameObject firePrefab = firePrefabs[randomFire];
 
             GameObject cloneFire = Instantiate(firePrefab, spawnPoint.position, spawnPoint.transform.rotation * Quaternion.Euler(0f, 0f, 180f));
 
