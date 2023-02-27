@@ -9,7 +9,7 @@ public class Laucher : MonoBehaviour
     [SerializeField] Transform[] spawnPoints;
 
     private float mini = .1f;
-    private float max = 3f;
+    private float max = 4f;
 
     private void Start()
     {
@@ -26,12 +26,12 @@ public class Laucher : MonoBehaviour
             int randomPoint = Random.Range(0, spawnPoints.Length);
             Transform spawnPoint = spawnPoints[randomPoint];
 
-            GameObject cloneFire = Instantiate(firePrefab, spawnPoint.position, spawnPoint.rotation);
+            GameObject cloneFire = Instantiate(firePrefab, spawnPoint.position, spawnPoint.transform.rotation * Quaternion.Euler(0f, 0f, 180f));
 
             Rigidbody2D rb = cloneFire.GetComponent<Rigidbody2D>();
             rb.AddForce(spawnPoint.up * launchSpeed, ForceMode2D.Impulse);
 
-            Destroy(cloneFire, 2f);
+            Destroy(cloneFire, 1.5f);
         }
     }
 }
