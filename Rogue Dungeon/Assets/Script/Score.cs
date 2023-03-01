@@ -18,6 +18,7 @@ public class Score : MonoBehaviour
             scorePoints = value;
             // Debug.Log(scorePoints);
             GetComponent<Text>().text = "Score: " + scorePoints;
+            PlayerPrefs.SetInt("best", scorePoints);
         }
     }
 
