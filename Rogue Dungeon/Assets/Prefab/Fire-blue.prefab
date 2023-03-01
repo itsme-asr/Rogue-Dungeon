@@ -136,7 +136,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d05b7f4118eef74983f029a512cc3f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathEffect: {fileID: 6710332079486177194, guid: 32b1ec9db3a678a41ae3f02dd4591617,
+  deathEffect: {fileID: 4535008894406450921, guid: 32b1ec9db3a678a41ae3f02dd4591617,
     type: 3}
 --- !u!95 &5582191631311252119
 Animator:
