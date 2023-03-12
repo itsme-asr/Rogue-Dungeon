@@ -11,7 +11,6 @@ public class Score : MonoBehaviour
     {
         get
         {
-            PlayerPrefs.SetInt("best", scorePoints);
             return scorePoints;
         }
 
@@ -20,6 +19,7 @@ public class Score : MonoBehaviour
             scorePoints = value;
             // Debug.Log(scorePoints);
             GetComponent<Text>().text = "Score: " + scorePoints;
+            PlayerPrefs.SetInt("best", scorePoints);
 
         }
     }
@@ -27,26 +27,7 @@ public class Score : MonoBehaviour
     private void Start()
     {
         ScorePoints = 0;
-        onCheckBest();
+
     }
 
-    private void Update()
-    {
-        updateBestScore();
-    }
-
-    private void onCheckBest()
-    {
-        if (scorePoints > PlayerPrefs.GetInt("best", 0))
-        {
-            PlayerPrefs.SetInt("best", scorePoints);
-            updateBestScore();
-
-        }
-    }
-
-    private void updateBestScore()
-    {
-        bestScore.text = "Best: " + PlayerPrefs.GetInt("best");
-    }
 }

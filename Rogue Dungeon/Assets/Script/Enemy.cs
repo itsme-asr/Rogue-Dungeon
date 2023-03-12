@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class Enemy : MonoBehaviour
 {
     [SerializeField] GameObject deathEffect;
@@ -16,6 +16,7 @@ public class Enemy : MonoBehaviour
             GameObject deathParticleEffect = Instantiate(deathEffect, transform.position, Quaternion.identity);
             Destroy(other.gameObject, .1f);
             Destroy(deathParticleEffect, 1f);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }
 
