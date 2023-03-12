@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class Best : MonoBehaviour
 {
     Text txt;
+    //[SerializeField] Enemy enemy;
 
     private void Start()
     {
@@ -14,6 +15,13 @@ public class Best : MonoBehaviour
 
     private void Update()
     {
-        txt.text = " " + PlayerPrefs.GetInt("best");
+        //Debug.Log(GameObject.FindWithTag("Fire").GetComponent<Enemy>().death);
+    }
+
+    public void bestScore()
+    {
+        //if (GameObject.FindWithTag("Fire").GetComponent<Enemy>().death == false)
+        //txt.text = "Best : " + PlayerPrefs.GetInt("best");
+
     }
 }

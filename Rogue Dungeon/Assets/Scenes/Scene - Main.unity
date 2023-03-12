@@ -135,7 +135,7 @@ GameObject:
   m_Layer: 0
   m_Name: Laucher (9)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -147,7 +147,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 76898226}
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 7.881519, y: -1.6946659, z: 4.1792226}
+  m_LocalPosition: {x: 7.39, y: -1.6946659, z: 4.1792226}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 1749534527}
@@ -245,6 +245,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d293d364953ca554096f010e4e0c6ee9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bestScore: {fileID: 1834508677}
 --- !u!1 &238228642
 GameObject:
   m_ObjectHideFlags: 0
@@ -673,7 +674,7 @@ GameObject:
   m_Layer: 0
   m_Name: Laucher (7)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -685,7 +686,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 447489008}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.381519, y: -6.194666, z: 4.1792226}
+  m_LocalPosition: {x: 4.381519, y: -5.694666, z: 4.1792226}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 1749534527}
@@ -1129,7 +1130,7 @@ GameObject:
   m_Layer: 0
   m_Name: Laucher (5)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1141,7 +1142,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1075859074}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.3815188, y: -6.194666, z: 4.1792226}
+  m_LocalPosition: {x: 2.3815188, y: -5.694666, z: 4.1792226}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 1749534527}
@@ -1159,7 +1160,7 @@ GameObject:
   m_Layer: 0
   m_Name: Laucher (8)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1171,7 +1172,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1118269440}
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 7.881519, y: -2.694666, z: 4.1792226}
+  m_LocalPosition: {x: 7.39, y: -2.694666, z: 4.1792226}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 1749534527}
@@ -2067,7 +2068,7 @@ GameObject:
   m_Layer: 0
   m_Name: Laucher
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -2079,7 +2080,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1346133750}
   m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -2.1184812, y: 0.3053342, z: 4.1792226}
+  m_LocalPosition: {x: -1.6184812, y: 0.3053342, z: 4.1792226}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 1749534527}
@@ -2097,7 +2098,7 @@ GameObject:
   m_Layer: 0
   m_Name: Laucher (4)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -2109,7 +2110,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1580322406}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.3815188, y: -6.194666, z: 4.1792226}
+  m_LocalPosition: {x: 1.3815188, y: -5.694666, z: 4.1792226}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 1749534527}
@@ -2127,7 +2128,7 @@ GameObject:
   m_Layer: 0
   m_Name: Laucher (1)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -2139,7 +2140,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1590605277}
   m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -2.1184812, y: -0.6946658, z: 4.1792226}
+  m_LocalPosition: {x: -1.6184812, y: -0.6946658, z: 4.1792226}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 1749534527}
@@ -2157,7 +2158,7 @@ GameObject:
   m_Layer: 0
   m_Name: Laucher (3)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -2169,7 +2170,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1710970644}
   m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -2.1184812, y: -2.694666, z: 4.1792226}
+  m_LocalPosition: {x: -1.6184812, y: -2.694666, z: 4.1792226}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 1749534527}
@@ -2424,14 +2425,13 @@ GameObject:
   - component: {fileID: 1834508676}
   - component: {fileID: 1834508678}
   - component: {fileID: 1834508677}
-  - component: {fileID: 1834508679}
   m_Layer: 5
   m_Name: Best
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1834508676
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2493,18 +2493,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1834508675}
   m_CullTransparentMesh: 1
---- !u!114 &1834508679
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1834508675}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 74277114df22b664ab2f173af28ecbea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1844115614
 GameObject:
   m_ObjectHideFlags: 0
@@ -2517,7 +2505,7 @@ GameObject:
   m_Layer: 0
   m_Name: Laucher (6)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -2529,7 +2517,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1844115614}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.3815188, y: -6.194666, z: 4.1792226}
+  m_LocalPosition: {x: 3.3815188, y: -5.694666, z: 4.1792226}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 1749534527}
@@ -2547,7 +2535,7 @@ GameObject:
   m_Layer: 0
   m_Name: Laucher (2)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -2559,7 +2547,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2015137830}
   m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -2.1184812, y: -1.6946658, z: 4.1792226}
+  m_LocalPosition: {x: -1.6184812, y: -1.6946658, z: 4.1792226}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 1749534527}
@@ -2607,7 +2595,7 @@ GameObject:
   m_Layer: 0
   m_Name: Laucher (11)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -2619,7 +2607,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2079799250}
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 7.881519, y: 0.3053341, z: 4.1792226}
+  m_LocalPosition: {x: 7.39, y: 0.3053341, z: 4.1792226}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 1749534527}
@@ -2637,7 +2625,7 @@ GameObject:
   m_Layer: 0
   m_Name: Laucher (10)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -2649,7 +2637,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2095447341}
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 7.881519, y: -0.6946659, z: 4.1792226}
+  m_LocalPosition: {x: 7.39, y: -0.6946659, z: 4.1792226}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 1749534527}

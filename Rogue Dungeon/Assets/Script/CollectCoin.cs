@@ -11,6 +11,7 @@ public class CollectCoin : MonoBehaviour
         {
             GameObject effect = Instantiate(pointsCollectionEffect, transform.position, Quaternion.identity);
             Destroy(effect, .75f);
+            Destroy(other.gameObject);
             //Debug.Log("Collision");
             //            GameObject.FindWithTag("Coin").transform.GetComponent<Score>().ScorePoints += 1;
             GameObject.Find("Score").GetComponent<Score>().ScorePoints += 1;

@@ -99,8 +99,8 @@ CapsuleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.03, y: 0}
-  m_Size: {x: 0.6, y: 0.8}
+  m_Offset: {x: -0.030000001, y: 0.04787135}
+  m_Size: {x: 0.6, y: 0.70425725}
   m_Direction: 0
 --- !u!50 &5057216907307835386
 Rigidbody2D:
@@ -137,6 +137,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathEffect: {fileID: 4535008894406450921, guid: 32b1ec9db3a678a41ae3f02dd4591617,
     type: 3}
+  death: 0
 --- !u!95 &5057216907307835378
 Animator:
   serializedVersion: 3
